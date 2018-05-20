@@ -1,35 +1,71 @@
-.h1-style {
-    /* Put a 15-pixel margin at the bottom of the heading. */
-    margin-bottom: 5px;
-    /* Change the size of your font to 60 pixels high. */
-    font-size: 30px;
-    /* This will color the heading font white. */
-    color: white;
-    /* Align the text to the center of its enclosing element (e.g. div). */
-    text-align: center;
-    /* Underline the text. */
-    text-decoration: double ;
-    /* The background of the heading element will now be black. */
-    background-color: black;
-  }
+/* 1. Colors _Pro-tip: Use the [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) Chrome extension to find the colors used on web pages._
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd` */
 
-  .header-style {
-    margin-bottom: 15px;
-    font-size: 2em;
-    color: maroon;
-    text-align: center;
-    text-decoration: underline;
-    background-color: dimgray ;
-  }
+@import 'reset.css';
 
-  .header-links {
+.main {
+    background-image: url("../images/dust_scratches.png");
+    background-color: lightgray
+}
 
-    vertical-align: text-top;
-    font-size: 1em;
-    margin-bottom: 15px;
-    font-size: 60px;
-    color: white;
+.bg {
+    /* The image used */
+    background-image: url("../images/dust_scratches.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    height: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-color: crimson;
+    border-width: 2px
+}
+h1{
+    font-size: 1.7em
+}
+h2{
+    font-size: 1.3em
+}
+
+
+.content {
+    height: 80%;
+    width: 60%;
+    margin: auto;
+   
+    background-color:  rgb(83, 175, 60);
+  
+    border: #dddddd;
+}
+
+.footer {
+    height: 60px;
+    background-color: #666666;
     text-align: center;
-    text-decoration: underline;
-    background-color: black
-  }
+    vertical-align: top;
+    font-size: .8em;
+    clear: both;
+    border-top: 1rem solid #4aaaa5;
+}
+
+.fa {
+    vertical-align: text-bottom
+}

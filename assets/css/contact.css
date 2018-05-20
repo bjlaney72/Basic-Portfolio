@@ -1,0 +1,26 @@
+
+@import 'reset.css';
+
+.header {
+    background-color: silver;
+    border: 1px solid red
+}
+.about {
+    background-color: peachpuff;
+    border: 1px solid rgb(14, 20, 70)
+}.pic {
+    background-color: rgb(185, 183, 68);
+    border: 1px solid rgb(36, 17, 17);
+    width: 20%;
+    float: left;
+}.content {
+    background-color: rgb(241, 18, 212);
+    border: 1px solid rgb(4, 8, 49);
+    width: 80%;
+    float: none
+}
+.footer {
+    background-color: silver;
+    border: 1px solid red;
+    clear: both
+}
